@@ -23,7 +23,8 @@ def third_challenge
        { name: "Mercutio",
          age: "18",
          attitude: "hot-headed"
-      } ]
+      }
+    ]
     },
   {
    :capulet => {
@@ -33,14 +34,15 @@ def third_challenge
         },
       :matriarch => {
         name: "Lady Capulet",
-        age: "51"
+        age: "50"
         },
       :heroine => {
         name: "Juliet",
         age: "15",
         status: "alive"
       },
-      :heroine_friends => [{
+      :heroine_friends => [
+        {
         name: "Steven",
         age: "30",
         attitude: "confused"
@@ -48,7 +50,8 @@ def third_challenge
        { name: "Nurse",
          age: "44",
          attitude: "worried"
-      } ]
+      }
+    ]
    }
   }
 end
